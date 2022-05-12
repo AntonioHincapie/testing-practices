@@ -69,3 +69,16 @@ describe("multipy", () => {
     expect(new calculator().multiply(6, 3)).toBe(18);
   });
 });
+
+// Test 4 Capitalize
+
+const capitalize = require("./capitalize.js");
+
+describe("capitalize", () => {
+  test("hi to be Hi", () => {
+    expect(capitalize("hi")).toEqual("Hi");
+  });
+  test("bye to be Bye", () => {
+    expect(capitalize("bye")).toEqual("Bye");
+  })
+});
